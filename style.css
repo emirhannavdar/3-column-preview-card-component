@@ -1,0 +1,114 @@
+.tasarim{
+    border-style: none;
+    border-width: 2px;
+    border-radius: 20px;
+    position: fixed;
+    height: 450px;
+    width: 831px;
+    right: 300px;
+    top: 150px;
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-style: none;
+    border-radius: 15px 0px 0px 15px;
+    border-width: 2px;
+    position: fixed;
+    width: 277px;
+    height: 446px;
+    right: 831px;
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    border-style: none;
+    border-width: 2px;
+    position: fixed;
+    width: 277px;
+    height: 446px;
+    right: 572px;
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-style: none;
+    border-radius: 0px 15px 15px 0px;
+    border-width: 2px;
+    position: fixed;
+    width: 277px;
+    height: 446px;
+    right: 300px;
+}
+
+.icon{
+    position: absolute;
+    left: 25px;
+    top: 30px;
+}
+
+.baslik{
+    color: white;
+    position: absolute;
+    left: 25px;
+    top: 80px;
+}
+
+.prgf{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 20px;
+    position: absolute;
+    top: 150px;
+    margin: 30px;
+}
+
+.btnS{
+    font-size: 15px;
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    bottom: 35px;
+    left: 25px;
+}
+
+.btnSU{
+    font-size: 15px;
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    bottom: 35px;
+    left: 25px;
+}
+
+.btnL{
+    font-size: 15px;
+    color:  hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    bottom: 35px;
+    left: 25px;
+}
+
+.btnS:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+.btnSU:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+.btnL:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
